@@ -62,10 +62,10 @@ ssh -p 3322 -i id_rsa -t git@127.0.0.1 "less /etc/passwd"
 • ! 명령어를 통해 시스템 명령어 실행 가능
 
 ### 3.2 명령어 실행 (sandbox 우회)
-!id -> 사용자 ID, 그룹 ID 출력
-!whoami -> 현재 사용자(git)
-!uname -a -> 시스템 커널 정보 출력
-!ls /home/git -> git 홈 디렉토리 파일 목록 출력
+• !id -> 사용자 ID, 그룹 ID 출력
+• !whoami -> 현재 사용자(git)
+• !uname -a -> 시스템 커널 정보 출력
+• !ls /home/git -> git 홈 디렉토리 파일 목록 출력
 
 ## 4. 취약점 분석
 	• git-shell 환경에서는 사용자가 시스템 명령어를 실행할 수 없게 제한함.
