@@ -18,7 +18,6 @@ Git-shell은 SSH를 통해 제한된 git 명령만 허용하는 환경을 제공
 ### 2.2 Vulhub 레포지토리 클론
 `git clone https://github.com/phith0n/vulhub.git`
 
-
 `cd vulhub/git/CVE-2017-8386/`
 ![Image1](https://github.com/user-attachments/assets/1f65fb3f-232e-4db4-b410-07f1a87f10a2)
 ### 2.3 docker-compose.yml 및 Dockerfile 구성
