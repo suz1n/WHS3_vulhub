@@ -35,9 +35,9 @@ docker ps
 	• 컨테이너 실행 확인 (git-shell-cve-2017-8386)
 
 ### 2.5 SSH 키 등록 및 환경 설정
-	1.	로컬에서 id_rsa.pub 생성 및 복사
-	2.	컨테이너 내부 접속 및 git 사용자로 전환
-	3.	authorized_keys 등록
+	1. 로컬에서 id_rsa.pub 생성 및 복사
+	2. 컨테이너 내부 접속 및 git 사용자로 전환
+	3. authorized_keys 등록
 
 docker exec -it git-shell-cve-2017-8386 /bin/bash
 chsh -s /bin/bash git
@@ -52,7 +52,7 @@ vim ~/.ssh/authorized_keys
 apt update
 apt install less -y
 apt install man-db -y
-	•	PoC 수행을 위해 less, man 패키지 설치 완료
+	• PoC 수행을 위해 less, man 패키지 설치 완료
 
 ## 3. PoC 과정
 
