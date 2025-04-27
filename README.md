@@ -21,7 +21,6 @@ sandbox를 우회하고 시스템 명령어를 실행할 수 있는 취약점(CV
 
 ### 2.2 Vulhub 레포지토리 클론
 
-```bash
 git clone https://github.com/phith0n/vulhub.git
 cd vulhub/git/CVE-2017-8386/
 
