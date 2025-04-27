@@ -7,8 +7,6 @@ sandbox를 우회하고 시스템 명령어를 실행할 수 있는 취약점(CV
 
 본 보고서는 해당 취약점에 대한 PoC를 진행하고 과정을 정리한 것입니다.
 
----
-
 ## 2. 환경 구축
 
 ### 2.1 사용 도구 및 버전
@@ -34,7 +32,7 @@ cd vulhub/git/CVE-2017-8386/
 docker-compose build
 docker-compose up -d
 docker ps
-	•	컨테이너 실행 확인 (git-shell-cve-2017-8386)
+	• 컨테이너 실행 확인 (git-shell-cve-2017-8386)
 
 ### 2.5 SSH 키 등록 및 환경 설정
 	1.	로컬에서 id_rsa.pub 생성 및 복사
