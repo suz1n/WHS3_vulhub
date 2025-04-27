@@ -79,4 +79,4 @@ ssh -p 3322 -i id_rsa -t git@127.0.0.1 "less /etc/passwd"
 	• 필요시 less와 같은 명령어를 서버에서 제거 또는 제한 설정
 
 ## 6. GitHub 레포지토리 링크
-[(https://github.com/suz1n/WHS3_vulhub)]
+https://github.com/suz1n/WHS3_vulhub
