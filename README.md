@@ -20,7 +20,7 @@ Git-shell은 SSH를 통해 제한된 git 명령만 허용하는 환경을 제공
 
 
 `cd vulhub/git/CVE-2017-8386/`
-
+![Image1](https://github.com/suz1n/WHS3_vulhub/issues/2#issue-3023165259)
 ### 2.3 docker-compose.yml 및 Dockerfile 구성
 	• Ubuntu 16.04 베이스 이미지
 	• Git 2.12.2 소스 설치
@@ -38,7 +38,7 @@ Git-shell은 SSH를 통해 제한된 git 명령만 허용하는 환경을 제공
 
 
 	• 컨테이너 실행 확인 (git-shell-cve-2017-8386)
-
+![Image2](https://github.com/user-attachments/assets/ca0e76e1-ccea-4d71-b34e-055e9fd4a803)
 ### 2.5 SSH 키 등록 및 환경 설정
 	1. 로컬에서 id_rsa.pub 생성 및 복사
 	2. 컨테이너 내부 접속 및 git 사용자로 전환
@@ -66,7 +66,7 @@ Git-shell은 SSH를 통해 제한된 git 명령만 허용하는 환경을 제공
 
 `vim ~/.ssh/authorized_keys`
 
-
+![Image3](https://github.com/user-attachments/assets/3adde857-6b3e-4048-a42a-887438fbe90e)
 ### 2.6 추가 패키지 설치
 `apt update`
 
