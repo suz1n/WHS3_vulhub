@@ -20,10 +20,10 @@ sandbox를 우회하고 시스템 명령어를 실행할 수 있는 취약점(CV
 - SSH Server
 
 ### 2.2 Vulhub 레포지토리 클론
-```bash
+
 git clone https://github.com/phith0n/vulhub.git
 cd vulhub/git/CVE-2017-8386/
-`**
+
 ### 2.3 docker-compose.yml 및 Dockerfile 구성
 	• Ubuntu 16.04 베이스 이미지
 	• Git 2.12.2 소스 설치
