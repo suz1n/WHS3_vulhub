@@ -17,7 +17,7 @@ Git-shell은 SSH를 통해 제한된 git 명령만 허용하는 환경을 제공
 
 ### 2.2 Vulhub 레포지토리 클론
 
-git clone https://github.com/phith0n/vulhub.git
+`git clone https://github.com/phith0n/vulhub.git`
 
 
 cd vulhub/git/CVE-2017-8386/
