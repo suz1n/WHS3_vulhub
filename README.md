@@ -17,6 +17,8 @@ Git-shell은 SSH를 통해 제한된 git 명령만 허용하는 환경을 제공
 
 ### 2.2 Vulhub 레포지토리 클론
 `git clone https://github.com/phith0n/vulhub.git`
+
+
 `cd vulhub/git/CVE-2017-8386/`
 
 ### 2.3 docker-compose.yml 및 Dockerfile 구성
@@ -27,28 +29,51 @@ Git-shell은 SSH를 통해 제한된 git 명령만 허용하는 환경을 제공
 
 ### 2.4 컨테이너 빌드 및 실행
 `docker-compose build`
+
+
 `docker-compose up -d`
+
+
 `docker ps`
+
+
 	• 컨테이너 실행 확인 (git-shell-cve-2017-8386)
 
 ### 2.5 SSH 키 등록 및 환경 설정
 	1. 로컬에서 id_rsa.pub 생성 및 복사
 	2. 컨테이너 내부 접속 및 git 사용자로 전환
 	3. authorized_keys 등록
-
 `docker exec -it git-shell-cve-2017-8386 /bin/bash`
+
+
 `chsh -s /bin/bash git`
+
+
 `su git`
+
+
 `mkdir -p ~/.ssh`
+
+
 `chmod 700 ~/.ssh`
+
+
 `touch ~/.ssh/authorized_keys`
+
+
 `chmod 600 ~/.ssh/authorized_keys`
+
+
 `vim ~/.ssh/authorized_keys`
 
 
 ### 2.6 추가 패키지 설치
 `apt update`
+
+
 `apt install less -y`
+
+
 `apt install man-db -y`
 
 
